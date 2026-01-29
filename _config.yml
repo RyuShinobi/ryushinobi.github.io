@@ -1,48 +1,27 @@
-title: "Maine Events"
-author: "Jermaine Aguilar"
-email: "blog@ryushinobi.net"
-description: "Loves to explore tech / doing DIY home automations / Loves mechanical keyboards and trackball mice" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+title: "Maine Aguilar"
+description: "Tech notes, Atlassian, Automation, and Systems Administration"
+url: "https://ryushinobi.net"
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-email: "j.aguilar@ryushinobi.net"
-twitter_username: "ryushinobi00"
-github_username: "ryushinobi"
-linkedin_username: "ryushinobi"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
+remote_theme: "mmistakes/minimal-mistakes@latest"
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
-
-rss: rss
-
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-
-header_pages:
-  - resume.html
-  - archive.html
+minimal_mistakes_skin: dark
 
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
-  
+  - jekyll-seo-tag
 
-titles_from_headings:
-  strip_title: true
-  collections: true
+markdown: kramdown
 
 defaults:
   - scope:
       path: ""
-      type: post
+      type: posts
     values:
-      tags: Other
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      toc: false
+
+sass:
+  style: compressed
