@@ -2,9 +2,9 @@ title: "Maine Aguilar"
 description: "Tech notes, Atlassian, Automation, and Systems Administration"
 url: "https://ryushinobi.net"
 
-remote_theme: "mmistakes/minimal-mistakes@latest"
+theme: minimal-mistakes-jekyll
 
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: neon
 
 plugins:
   - jekyll-feed
